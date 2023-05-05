@@ -1,0 +1,71 @@
+.leftSideBar {
+    /* position: relative; */
+    width: 294px;
+    height: 100%;
+    padding: 57px 100px 100px;
+    border-right: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+
+}
+
+.leftSideBar__name {
+    font-family: 'Barlow Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;    
+}
+
+.leftSideBar__page {    
+    font-family: 'Barlow Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1.2;
+    color: #B4977B;
+}
+
+.leftSideBar__page_last {
+    color: #E4D6C9;
+}
+
+.leftSideBar__slider-container {
+    height: 360px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;    
+    margin-top: 80px;
+}
+
+.leftSideBar__slider-back {
+    width: 4px;
+    height: 200px;
+    background: #E5E5E5;
+    border-radius: 2px;    
+} 
+
+.leftSideBar__slider-runner {
+    background: #B4977B;
+    height: 42px;
+}
+
+.leftSideBar__button {
+    width: 58px;
+    height: 79px;
+    background: none;
+    border: none;    
+    border: 2px solid #B4977B;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.leftSideBar__button:hover {
+    opacity: .5;
+    transition: opacity 1s linear;
+}

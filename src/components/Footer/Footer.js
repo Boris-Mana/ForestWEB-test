@@ -1,14 +1,16 @@
-function Footer() {
+function Footer({ counter }) {
     return (
-        <footer className="footer">
-            <h2 className="footer__title">Учебный проект Яндекс.Практикум х BeatFilm.</h2>
-            <div className="footer__container-last-str">
-                <p className="footer__copyright">© 2020</p>
-                <div className="footer__container-links">
-                    <a className="footer__link" href="https://practicum.yandex.ru/" rel="noreferrer" target="_blank">Яндекс.Практикум</a>
-                    <a className="footer__link" href='https://github.com' rel="noreferrer" target="_blank">Github</a>
-                </div>
-            </div>
+        <footer className="footer">            
+                
+                    <nav className="footer__nav-box">
+                        <li><a className="footer__link" href="#">FACEBOOK</a></li>
+                        <li><a className="footer__link" href="#">INSTAGRAM</a></li>
+                        <li><a className="footer__link" href="#">TWITTER</a></li>
+                    </nav>
+                    <p className="footer__page-number">0{counter + 1}</p>
+                    {/* <a className="footer__link" href="https://practicum.yandex.ru/" rel="noreferrer" target="_blank">Яндекс.Практикум</a> */}
+                    
+                
         </footer>
     );
 }

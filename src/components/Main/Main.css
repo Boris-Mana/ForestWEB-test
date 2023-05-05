@@ -1,3 +1,121 @@
-.main {    
-    padding: 0px 70px;
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* margin: auto; */
+
+}
+
+.main__pict {
+    width: 517px;
+    height: 800px;
+    position: absolute;
+    top: -83px;
+    z-index: 1;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+
+.main__pict-title-box {
+    position: relative;
+    bottom: 121px;
+    width: 517px;
+    height: 117px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__pict-title {
+    text-align: center;
+    font-family: 'Barlow SemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+
+.main__info_box {
+    width: 650px;
+    margin: auto;
+    margin-top: 160px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 40px;
+}
+
+
+.main__title {
+    width: 517px;
+    font-family: 'Barlow Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    margin: 0;
+
+}
+
+.main__text {
+    max-height: 290px;
+    font-family: 'Barlow Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgba(5, 2, 21, 0.75);
+    overflow: auto;    
+}
+
+/* Works on Firefox */
+.main__text {
+    scrollbar-width: thin;
+    scrollbar-color: #B4977B #E5E5E5;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.main__text::-webkit-scrollbar {
+    width: 24px;    
+}
+
+.main__text::-webkit-scrollbar-track {
+    background: #E5E5E5;
+    border-radius: 2px;
+    border-left: 20px solid #fff;
+}
+
+.main__text::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 42px;
+    background-color: #B4977B;
+    border-radius: 2px;
+    border-left: 20px solid #fff;
+}
+
+.main__button {
+    width: 178px;
+    height: 60px;
+    background: #B4977B;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Barlow SemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+
+}
+
+.main__button:hover {
+    opacity: .5;
+    transition: opacity 1s linear;
 }
