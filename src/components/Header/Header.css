@@ -7,7 +7,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    align-items: center;    
+    align-items: center;
 }
 
 .header__nav {
@@ -36,7 +36,7 @@
     transition: opacity 1s linear;
 }
 
-.header__link_home { 
+.header__link_home {
     font-family: 'Barlow SemiBold';
     font-weight: 500;
     color: #B4977B;

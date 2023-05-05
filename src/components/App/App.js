@@ -1,8 +1,5 @@
-import { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { useState } from "react";
 
-// import Main from "../Main/Main.js";
-// const IMGURLPREF = 'https://api.nomoreparties.co/';
 import backgroundImage from '../../images/stars_backgr_group.svg'
 import LeftSideBar from "../LeftSideBar/LeftSideBar";
 import Header from "../Header/Header";
@@ -16,22 +13,20 @@ export default function App() {
   const handleClickNext = () => {
     const count = (counter === 0 || counter === 1) ? counter + 1 : 0;
     setCounter(count);
-    
+
   };
 
   const page_info = PAGES_INFO[counter]
 
   return (
     <div className="root">
-      <img className="app__backgr-image" alt='' src={backgroundImage}/>      
-      <LeftSideBar counter={counter} clickHandle={handleClickNext} name={page_info.name}/>
+      <img className="app__backgr-image" alt='' src={backgroundImage} />
+      <LeftSideBar counter={counter} clickHandle={handleClickNext} name={page_info.name} />
       <div className="app__body">
         <Header />
         <Main page_info={page_info} />
-        <Footer counter={counter}/>
+        <Footer counter={counter} />
       </div>
     </div>
-    
-
   );
 }

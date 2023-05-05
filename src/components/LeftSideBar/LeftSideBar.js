@@ -14,7 +14,7 @@ export default function LeftSideBar({ counter, clickHandle, name }) {
         </div>
         <p className='leftSideBar__page leftSideBar__page_last'>0{MAX_PAGE_NUMBER}</p>
       </div>
-      <button className='leftSideBar__button' onClick={clickHandle}><img src={arrow_down} /></button>
+      <button className='leftSideBar__button' onClick={clickHandle}><img src={arrow_down} alt=''/></button>
     </div>
   );
 }
