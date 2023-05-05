@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2620ca0.css",
+    "main.js": "/static/js/main.ee5bb0f3.js",
+    "static/js/787.4d723399.chunk.js": "/static/js/787.4d723399.chunk.js",
+    "static/media/blog-atmosfera-barbershopa.png": "/static/media/blog-atmosfera-barbershopa.4e78c9b2f329dc9cc5dd.png",
+    "static/media/barlow_medium.woff2": "/static/media/barlow_medium.58431936ead2d117c440.woff2",
+    "static/media/barlow_semibold.woff2": "/static/media/barlow_semibold.3a9429a12691db870eab.woff2",
+    "static/media/barlow_regular.woff2": "/static/media/barlow_regular.803d9d4229d2fd40e7e0.woff2",
+    "static/media/stars_backgr_group.svg": "/static/media/stars_backgr_group.4254f555046652c09277e4db69df6c70.svg",
+    "static/media/basket_1.svg": "/static/media/basket_1.7256ad059930e4ccb4628773a63488c0.svg",
+    "index.html": "/index.html",
+    "static/media/Arrow-down.svg": "/static/media/Arrow-down.1f3315d96779184d93c04c24dc6eecb4.svg",
+    "static/media/barlow_medium.woff": "/static/media/barlow_medium.31d6cfe0d16ae931b73c.woff",
+    "static/media/barlow_regular.woff": "/static/media/barlow_regular.31d6cfe0d16ae931b73c.woff",
+    "static/media/barlow_semibold.woff": "/static/media/barlow_semibold.31d6cfe0d16ae931b73c.woff",
+    "main.f2620ca0.css.map": "/static/css/main.f2620ca0.css.map",
+    "main.ee5bb0f3.js.map": "/static/js/main.ee5bb0f3.js.map",
+    "787.4d723399.chunk.js.map": "/static/js/787.4d723399.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2620ca0.css",
+    "static/js/main.ee5bb0f3.js"
+  ]
+}
